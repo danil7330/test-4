@@ -5,13 +5,12 @@ public class Main {
         int bonus = replen / 500;
         int balancebonus = score + replen + bonus;
         int balance = score + replen;
-        if (replen >= 1500)
-
-        {System.out.println("Итоговый счет=" + balancebonus);
+        if (replen >= 1500) {
+            System.out.println("Итоговый счет=" + balancebonus);
         } else {
-        System.out.println("Итоговый счет=" + balance );}
-
-
-
+            System.out.println("Итоговый счет=" + balance);
         }
+
+
     }
+}
