@@ -1,14 +1,14 @@
 public class Main {
     public static void main(String[] args) {
-        int score = 300;
+        int myScore = 300;
         int replen = 4000;
-        int bonus = replen / 500;
-        int balancebonus = score + replen + bonus;
-        int balance = score + replen;
-        if (replen >= 1500) {
-            System.out.println("Итоговый счет=" + balancebonus);
+        int myBonus = replen / 100;
+        int balanceBonus = myScore + replen + myBonus;
+        int myBalance = myScore + replen;
+        if (replen >= 1000) {
+            System.out.println("Итоговый счет=" + balanceBonus);
         } else {
-            System.out.println("Итоговый счет=" + balance);
+            System.out.println("Итоговый счет=" + myBalance);
         }
 
 
